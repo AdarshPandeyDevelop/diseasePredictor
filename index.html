@@ -58,7 +58,7 @@
           const corsProxy = "https://cors-anywhere.herokuapp.com/"; // Free CORS proxy
           const searchUrl = `${corsProxy}https://serpapi.com/search.json?q=${encodeURIComponent(
             query
-          )}&hl=en&gl=us&api_key=682d3d7f9c0a062d0a466209981eca138887417d0565e26b680de7dbeb37d979`;
+          )}&hl=en&gl=us&api_key=`;
 
           try {
             const response = await fetch(searchUrl);
